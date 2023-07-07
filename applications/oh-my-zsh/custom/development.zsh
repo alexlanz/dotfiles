@@ -1,3 +1,5 @@
+source $(brew --prefix nvm)/nvm.sh
+
 export PATH=$PATH:./vendor/bin
 export PATH=$PATH:./node_modules/.bin
 

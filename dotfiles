@@ -63,7 +63,7 @@ main() {
 
     # Development
     print_info 'Install Development'
-    # ./scripts/development.sh
+    ./scripts/development.sh
 
 }
 
