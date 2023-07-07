@@ -1,0 +1,14 @@
+{
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+    "ensure_newline_at_eof_on_save": true,
+    "font_size": 12,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "line_padding_bottom": 4,
+    "line_padding_top": 4,
+    "show_panel_on_build": true,
+    "theme": "Material-Theme-Darker.sublime-theme",
+    "translate_tabs_to_spaces": true
+}

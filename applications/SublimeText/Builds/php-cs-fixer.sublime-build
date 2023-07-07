@@ -1,0 +1,5 @@
+{
+    "shell_cmd": "./vendor/bin/php-cs-fixer fix",
+    "working_dir": "$folder",
+    "selector": "source.php"
+}

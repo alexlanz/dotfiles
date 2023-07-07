@@ -1,0 +1,70 @@
+#!/bin/bash
+
+# ----------------------------------------------------------------------
+# | Main                                                               |
+# ----------------------------------------------------------------------
+
+main() {
+
+    # Ensure that the following actions
+    # are made relative to this file's path
+    #
+    # http://mywiki.wooledge.org/BashFAQ/028
+
+    cd "$(dirname "$BASH_SOURCE")"
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Load utils
+
+    source 'utils/base.sh'
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    ask_for_sudo
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Homebrew
+    print_info 'Install Homebrew'
+    ./scripts/brew.sh
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Applications
+    print_info 'Install Applications'
+    # ./scripts/applications.sh
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # oh-my-zsh
+    print_info 'Install oh-my-zsh'
+    ./scripts/oh-my-zsh.sh
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Git
+    print_info 'Configure Git'
+    ./scripts/git.sh
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Python
+    print_info 'Install Python'
+    ./scripts/python.sh
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Cloud
+    print_info 'Install Cloud'
+    ./scripts/cloud.sh
+
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Development
+    print_info 'Install Development'
+    # ./scripts/development.sh
+
+}
+
+main
