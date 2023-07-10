@@ -13,8 +13,8 @@ Run the following command:
 
 These application require a manual setup:
 
+- [IntelliJ](/applications/IntelliJ/readme.md)
 - [iTerm](/applications/iTerm/readme.md)
-- [PhpStorm](/applications/PhpStorm/readme.md)
 - [Reactangle](/applications/Reactangle/readme.md)
 - [SublimeText](/applications/SublimeText/readme.md)
 - [VisualStudioCode](/applications/VisualStudioCode/readme.md)
