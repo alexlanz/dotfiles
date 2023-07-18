@@ -1,3 +1,4 @@
+source $HOME/.sdkman/bin/sdkman-init.sh
 source $(brew --prefix nvm)/nvm.sh
 
 export PATH=$PATH:./vendor/bin
