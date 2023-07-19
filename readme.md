@@ -11,6 +11,8 @@ Run the following command:
 
 ## Manual Setup
 
+General MacOS configuration option: [MacOS](/macOS.md)
+
 These application require a manual setup:
 
 - [IntelliJ](/applications/IntelliJ/readme.md)
