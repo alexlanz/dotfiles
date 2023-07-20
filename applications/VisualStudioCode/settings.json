@@ -7,7 +7,7 @@
     "explorer.openEditors.visible": 0,
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
-    "git.enabled": false,
+    "git.enabled": true,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Default Light+",
     "workbench.editor.enablePreview": false,
