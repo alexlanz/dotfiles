@@ -4,6 +4,7 @@ IntelliJ
 1. Set the following settings
     - Preferences -> Appearance & Behavior -> Appearance -> Theme -> Light
     - Preferences -> Appearance & Behavior -> New UI -> Enable new UI
+    - Preferences -> Editor -> General -> Code Folding -> Fold by default -> Disable all options
     - Preferences -> Editor -> General -> Editor Tabs -> Placement -> None
     - Preferences -> Editor -> General -> Breadcrumbs -> Show breadcrumbs
     - Preferences -> Editor -> Font -> Size -> 14
