@@ -15,7 +15,7 @@ General MacOS configuration option: [MacOS](/macOS.md)
 
 These application require a manual setup:
 
-- [IntelliJ](/applications/IntelliJ/readme.md)
+- [JetBrains](/applications/JetBrains/readme.md)
 - [iTerm](/applications/iTerm/readme.md)
 - [Reactangle](/applications/Reactangle/readme.md)
 - [SublimeText](/applications/SublimeText/readme.md)
