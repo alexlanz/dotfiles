@@ -3,7 +3,10 @@ source $(brew --prefix nvm)/nvm.sh
 
 export PATH=$PATH:./vendor/bin
 export PATH=$PATH:./node_modules/.bin
-export PATH=$PATH:/Applications/IntelliJ\ IDEA.app/Contents/MacOS
+
+alias idea='open -na "/Applications/IntelliJ IDEA.app" --args "$@"'
+alias phpstorm='open -na "/Applications/PhpStorm.app" --args "$@"'
+alias webstorm='open -na "/Applications/WebStorm.app" --args "$@"'
 
 alias sbr="./mvnw -Dspring-boot.run.profiles=local spring-boot:run"
 alias db:reset="./mvnw liquibase:dropAll liquibase:update"
