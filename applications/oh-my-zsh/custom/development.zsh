@@ -4,7 +4,7 @@ source $(brew --prefix nvm)/nvm.sh
 export PATH=$PATH:./vendor/bin
 export PATH=$PATH:./node_modules/.bin
 
-alias idea='open -na "/Applications/IntelliJ IDEA.app" --args "$@"'
+alias idea='open -na "/Applications/IntelliJ IDEA CE.app" --args "$@"'
 alias phpstorm='open -na "/Applications/PhpStorm.app" --args "$@"'
 alias webstorm='open -na "/Applications/WebStorm.app" --args "$@"'
 
